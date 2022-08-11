@@ -19,6 +19,10 @@ body {
     padding: 0;
 }
 
+.container {
+    height: 100vh;
+}
+
 .principal {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
@@ -27,8 +31,12 @@ body {
     grid-template-columns: 50% 50%;
 }
 
-.container {
-    height: 100vh;
+.container__caixa {
+    margin: 0 6em;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
 }
 
 .container__titulo {
@@ -43,6 +51,7 @@ body {
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao__secundario {
