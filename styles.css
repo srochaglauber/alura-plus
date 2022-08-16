@@ -75,6 +75,10 @@ body {
     width: 80%;
 }
 
+.container__descricao {
+    padding: 2em;
+}
+
 .descricao__titulo {
     font-weight: 700;
     font-size: 48px;
@@ -84,4 +88,9 @@ body {
 
 .descricao__texto {
     color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
 }
